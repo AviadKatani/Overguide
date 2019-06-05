@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChooseCourse" xml:space="preserve">
+    <value>Scegli il corso</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>Scegli la lingua</value>
+  </data>
+  <data name="ChooseStation" xml:space="preserve">
+    <value>Scegli la stazione</value>
+  </data>
+  <data name="FirstCourse" xml:space="preserve">
+    <value>Corso di formazione 1</value>
+  </data>
+  <data name="FirstStation" xml:space="preserve">
+    <value>Stazione 1</value>
+  </data>
+  <data name="FourthStation" xml:space="preserve">
+    <value>Stazione 4</value>
+  </data>
+  <data name="SecondStation" xml:space="preserve">
+    <value>Stazione 2</value>
+  </data>
+  <data name="SeeMore" xml:space="preserve">
+    <value>Scorri per vedere di più ⇢</value>
+  </data>
+  <data name="StationTemporary" xml:space="preserve">
+    <value>Lorem ipsum dolor sedersi amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere Morbi leo urna molestie presso Elementum eu. Viverra Mauris in aliquam SEM Fringilla UT morbi tincidunt augue. Nam aliquam SEM et tortor consequat. Eu augue UT Lectus Arcu Bibendum a. Suspendisse interdum consectetur libero ID. Orci Phasellus egestas Tellus rutrum Tellus. Nunc congue Nisi vitae suscipit Tellus mauris a. neque egestas congue quisque egestas diam in Arcu cursus. Quis Viverra hendrerit rating del credito pulvini Mattis nunc sed blandit. Malesuada fames ac turpis egestas intero eget. Morbi tristique senectus et Netus. UT venenatis Tellus in metus vulputate eu. Gravida Arcu AC tortor dignissim convallis Aenean. I tempor orci dapibus ultrapici in iaculis nunc sed augue Lacus. Sed euismod Nisi porta Lorem Mollis aliquam UT. Ac placerat vestibulum Lectus Mauris ultrices. Consequat interdum Varius sedersi amet Mattis vulputate. Dis partoriente Montes nascetur ridiculus Mus. viverra ipsum nunc aliquet Bibendum enim facilisis gravida.</value>
+  </data>
+  <data name="ThirdStation" xml:space="preserve">
+    <value>Stazione 3</value>
+  </data>
+  <data name="SecondCourse" xml:space="preserve">
+    <value>Corso di formazione 2</value>
+  </data>
+  <data name="ThirdCourse" xml:space="preserve">
+    <value>Corso di formazione 3</value>
+  </data>
+</root>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="Overguide.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#6982E7" />
+                <Setter Property="BarTextColor" Value="#FFFFFF" />
+            </Style>
+            <OnPlatform
+                x:Key="RobotoBlack"
+                x:TypeArguments="x:String"
+                Android="Roboto-Black.ttf#Roboto Black"
+                iOS="Roboto Black" />
+            <OnPlatform
+                x:Key="RobotoBlackItalic"
+                x:TypeArguments="x:String"
+                Android="Roboto-BlackItalic.ttf#Roboto Black"
+                iOS="Roboto Black" />
+            <OnPlatform
+                x:Key="RobotoBold"
+                x:TypeArguments="x:String"
+                Android="Roboto-Bold.ttf#Roboto"
+                iOS="Roboto" />
+            <OnPlatform
+                x:Key="RobotoBoldItalic"
+                x:TypeArguments="x:String"
+                Android="Roboto-BoldItalic.ttf#Roboto"
+                iOS="Roboto" />
+            <OnPlatform
+                x:Key="RobotoItalic"
+                x:TypeArguments="x:String"
+                Android="Roboto-Italic.ttf#Roboto"
+                iOS="Roboto" />
+            <OnPlatform
+                x:Key="RobotoLight"
+                x:TypeArguments="x:String"
+                Android="Roboto-Light.ttf#Roboto Light"
+                iOS="Roboto Light" />
+            <OnPlatform
+                x:Key="RobotoLightItalic"
+                x:TypeArguments="x:String"
+                Android="Roboto-LightItalic.ttf#Roboto Light"
+                iOS="Roboto Light" />
+            <OnPlatform
+                x:Key="RobotoMedium"
+                x:TypeArguments="x:String"
+                Android="Roboto-Medium.ttf#Roboto Medium"
+                iOS="Roboto Medium" />
+            <OnPlatform
+                x:Key="RobotoMediumItalic"
+                x:TypeArguments="x:String"
+                Android="Roboto-MediumItalic.ttf#Roboto Medium"
+                iOS="Roboto-MediumItalic" />
+            <OnPlatform
+                x:Key="RobotoRegular"
+                x:TypeArguments="x:String"
+                Android="Roboto-Regular.ttf#Roboto"
+                iOS="Roboto" />
+            <OnPlatform
+                x:Key="RobotoThinItalic"
+                x:TypeArguments="x:String"
+                Android="Roboto-ThinItalic.ttf#Roboto Thin"
+                iOS="Roboto-ThinItalic" />
+            <OnPlatform
+                x:Key="RobotoThin"
+                x:TypeArguments="x:String"
+                Android="Roboto-Thin.ttf#Roboto Thin"
+                iOS="Roboto-Thin" />
+            <OnPlatform
+                x:Key="FontAwesomeBrands"
+                x:TypeArguments="x:String"
+                Android="FontAwesome5Brands.otf#Regular"
+                iOS="Regular" />
+            <OnPlatform
+                x:Key="FontAwesomeSolid"
+                x:TypeArguments="x:String"
+                Android="FontAwesome5Solid.otf#Regular"
+                iOS="FontAwesome5Free-Solid" />
+            <OnPlatform
+                x:Key="FontAwesomeRegular"
+                x:TypeArguments="x:String"
+                Android="FontAwesome5Regular.otf#Regular"
+                iOS="FontAwesome5Free-Regular" />
+            <OnPlatform x:Key="FontAwesomeProRegular"
+                        x:TypeArguments="x:String"
+                        Android="FontAwesome5ProRegular.otf#Font Awesome 5 Pro Regular"
+                        iOS="FontAwesome5Pro-Regular"></OnPlatform>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

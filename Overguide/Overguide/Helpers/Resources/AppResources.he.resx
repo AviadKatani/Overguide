@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChooseCourse" xml:space="preserve">
+    <value>בחר מסלול</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>‏‏בחר שפה</value>
+  </data>
+  <data name="ChooseStation" xml:space="preserve">
+    <value>בחר תחנה</value>
+  </data>
+  <data name="FirstCourse" xml:space="preserve">
+    <value>מסלול 1
+</value>
+  </data>
+  <data name="FirstStation" xml:space="preserve">
+    <value>‏‏תחנה 1</value>
+  </data>
+  <data name="FourthStation" xml:space="preserve">
+    <value>תחנה 4</value>
+  </data>
+  <data name="SecondStation" xml:space="preserve">
+    <value>תחנה 2</value>
+  </data>
+  <data name="SeeMore" xml:space="preserve">
+    <value>⇢החלק בכדי לראות עוד</value>
+  </data>
+  <data name="StationTemporary" xml:space="preserve">
+    <value>לורי ipsum אמת לשבת amet, consectetur adipiscing עילית, sed לעשות eiusmod tempor מקרים ut labore ו אמת מגנה אליקווה. Posuere מורבי ליאו urna molestie ב המלט האיחוד האירופי. וירורה מאוריס באליקוי סאם. נאם aliquam sem et tortor consequat. האיחוד האירופי מדבר. . מconsectetur ליברו מזהה . זה מאוד מהנה בסיס על תנאי. ובכן, מאוד מאוד מאוד מצער בעלי-הבית... . הקרוס מטיס של הביצה מלסואדה מפורסם... . מורבי טריסטיסק ונטאוס . מחלקה בתוך האיחוד האירופי . גראותה-מרקו תחנת האוטובוסים המרכזית של העיר הזאת. משרד הביטחון הלאומי מזגן בפרוזדור. Consequat interdum varius לשמור על amet המח אטיס vulputate. . בגלל שאני מדבר על זה... וירורא מונסיס. בסדר.</value>
+  </data>
+  <data name="ThirdStation" xml:space="preserve">
+    <value>תחנה 3</value>
+  </data>
+  <data name="SecondCourse" xml:space="preserve">
+    <value>מסלול 2</value>
+  </data>
+  <data name="ThirdCourse" xml:space="preserve">
+    <value>מסלול 3</value>
+  </data>
+</root>

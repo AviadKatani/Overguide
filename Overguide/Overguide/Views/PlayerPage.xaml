@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Overguide.Views.PlayerPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:button="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:customizations="clr-namespace:Overguide.Customizations"
+    Title="OverGuide">
+    <NavigationPage.TitleView>
+        <StackLayout Padding="0, 0, 55, 0" VerticalOptions="Center">
+            <Label Text="OverGuide" FontSize="Large" HorizontalOptions="Center"
+                   TextColor="White" FontFamily="{StaticResource RobotoMedium}" />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <Grid
+        x:Name="MainLayout"
+        Padding="30,5,30,5"
+        HorizontalOptions="FillAndExpand"
+        RowSpacing="5"
+        VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="45" />
+            <RowDefinition Height="52" />
+        </Grid.RowDefinitions>
+        <StackLayout
+            Grid.Row="2"
+            Grid.ColumnSpan="3"
+            Spacing="0">
+            <customizations:CustomSlider
+                x:Name="customSlider"
+                Maximum="100"
+                MaximumTrackColor="DarkBlue"
+                Minimum="0"
+                MinimumTrackColor="DarkBlue"
+                ThumbColor="DarkBlue"
+                ThumbImage="small_one"
+                ValueChanged="OnSliderValueChanged"
+                VerticalOptions="Center" />
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Label
+                    x:Name="lblTotalCount"
+                    FontFamily="{StaticResource RobotoLight}"
+                    FontSize="Small"
+                    HorizontalOptions="End"
+                    LineBreakMode="WordWrap"
+                    Text="Total:"
+                    TextColor="Black" />
+                <Label
+                    x:Name="lblcurrent"
+                    FontFamily="{StaticResource RobotoLight}"
+                    FontSize="Small"
+                    LineBreakMode="WordWrap"
+                    Text="0"
+                    TextColor="Black" />
+            </Grid>
+        </StackLayout>
+        <button:SfButton
+            x:Name="StartButton"
+            Grid.Row="3"
+            Grid.Column="1"
+            BackgroundColor="Transparent"
+            HorizontalOptions="Center"
+            Clicked="PlayClick"
+            FontAttributes="Bold"
+            FontFamily="{StaticResource FontAwesomeProRegular}"
+            FontSize="35"
+            HeightRequest="45"
+            Text="&#xf04b;"
+            TextColor="Black"
+            WidthRequest="65" />
+        <button:SfButton
+            Grid.Row="3"
+            Grid.Column="2"
+            BackgroundColor="Transparent"
+            Clicked="RestartClick"
+            FontAttributes="Bold"
+            FontFamily="{StaticResource FontAwesomeProRegular}"
+            FontSize="25"
+            HeightRequest="45"
+            HorizontalOptions="Center"
+            Text="&#xf01e;"
+            TextColor="Black"
+            WidthRequest="65" />
+        <button:SfButton
+            Grid.Row="3"
+            Grid.Column="0"
+            BackgroundColor="Transparent"
+            Clicked="RestartClick"
+            FontAttributes="Bold"
+            FontFamily="{StaticResource FontAwesomeProRegular}"
+            FontSize="25"
+            HeightRequest="45"
+            HorizontalOptions="Center"
+            Text="&#xf028;"
+            TextColor="Black"
+            WidthRequest="65" />
+    </Grid>
+</ContentPage>

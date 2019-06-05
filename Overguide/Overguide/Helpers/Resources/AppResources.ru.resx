@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChooseCourse" xml:space="preserve">
+    <value>Выбрать курс</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>Выбрать язык</value>
+  </data>
+  <data name="ChooseStation" xml:space="preserve">
+    <value>Выберите станцию</value>
+  </data>
+  <data name="FirstCourse" xml:space="preserve">
+    <value>Курс 1</value>
+  </data>
+  <data name="FirstStation" xml:space="preserve">
+    <value>Станция 1</value>
+  </data>
+  <data name="FourthStation" xml:space="preserve">
+    <value>Станция 4</value>
+  </data>
+  <data name="SecondStation" xml:space="preserve">
+    <value>Станция 2</value>
+  </data>
+  <data name="SeeMore" xml:space="preserve">
+    <value>Размах, чтобы увидеть больше ⇢</value>
+  </data>
+  <data name="StationTemporary" xml:space="preserve">
+    <value>Лорем ипсум долор сит Амет, освящат адиписиум Элит, сеют Do eiusmod темили резар-ут-Ламор и долоре Магва. Posuere morbi Лео урна мольстии в элементрум ЕС. Viverra Маурис в aliquam сем Фрингилла ут morbi тсоунент АУГ. Нам aliquam МДж et tortor после. ЕС Ауг UT летус арку бибендум в. Припридис интердум освотит Либеро ID. ORCI phasellus эгесты Теллус рутрум Теллус. Нунц Конг Ниси Витэ сусипит Теллус Маурс а. неке эгесты Quis viverra нибх крас пульвинар Мэттис Нунк сжал. Malesuada МЭЖК AC turpis эгесты целое eGet. Morbi tristique Senectus et netus. UT venenатис Телус в Метус вульвы. Гравида арку AC тортор диндисим конвалли Енян. В иаулис нунц в Юксур-ОРЦИ-лакусе. СЕПГ euismod Ниси порта лорем Моллис aliquam UT. АС плацента рудибулум летус Маурисио ултрис. Вследствие этого Varius сидеть Амет Маттис вульвы. Дис-патуриент, Монс нассеур нелепое муз. виверра ипсум нунч Алике бибендум эним облегчения Гравида.</value>
+  </data>
+  <data name="ThirdStation" xml:space="preserve">
+    <value>Станция 3</value>
+  </data>
+  <data name="SecondCourse" xml:space="preserve">
+    <value>Курс 2</value>
+  </data>
+  <data name="ThirdCourse" xml:space="preserve">
+    <value>Курс 3</value>
+  </data>
+</root>

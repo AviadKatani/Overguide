@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage
+    x:Class="Overguide.Views.LanguagePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:helper="clr-namespace:Overguide.Helpers; assembly=Overguide"
+    xmlns:listview="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+    xmlns:main="clr-namespace:Overguide.ViewModels"
+    xmlns:transformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    Title="OverGuide">
+    <ContentPage.BindingContext>
+        <main:LanguageViewModel />
+    </ContentPage.BindingContext>
+    <NavigationPage.TitleView>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="OverGuide" FontSize="Large"
+                   TextColor="White" FontFamily="{StaticResource RobotoMedium}" />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <Grid
+        Padding="40"
+        BackgroundColor="#FFFFFF"
+        HorizontalOptions="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label
+            Grid.Row="0"
+            FontFamily="{StaticResource RobotoThin}"
+            FontSize="Large"
+            HorizontalOptions="Center"
+            Text="{helper:Translate ChooseLanguage}"
+            TextColor="Black" />
+        <listview:SfListView
+            x:Name="listView"
+            Grid.Row="1"
+            ItemSize="80"
+            ItemSpacing="7"
+            ItemTapped="Language_Choosed"
+            ItemsSource="{Binding Languages}"
+            SelectionBackgroundColor="Transparent"
+            SelectionMode="Single">
+            <listview:SfListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Frame
+                                BackgroundColor="#FFFFFF"
+                                Margin="4"
+                                Padding="10"
+                                BorderColor="Silver"
+                                CornerRadius="10"
+                                HasShadow="True">
+                                <Grid>
+                                    <Label
+                                        FontFamily="{StaticResource RobotoLight}"
+                                        FontSize="Large"
+                                        Grid.Column="1"
+                                        HorizontalTextAlignment="Center"
+                                        Text="{Binding Name}"
+                                        TextColor="Black"
+                                        VerticalOptions="Center" />
+                                    <forms:CachedImage
+                                        Aspect="AspectFill"
+                                        Grid.Column="0"
+                                        DownsampleToViewSize="true"
+                                        HeightRequest="50"
+                                        HorizontalOptions="Start"
+                                        Source="{Binding image}"
+                                        VerticalOptions="Center"
+                                        WidthRequest="50">
+                                        <forms:CachedImage.Transformations>
+                                            <transformations:CircleTransformation />
+                                        </forms:CachedImage.Transformations>
+                                    </forms:CachedImage>
+                                </Grid>
+                            </Frame>
+
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </listview:SfListView.ItemTemplate>
+        </listview:SfListView>
+    </Grid>
+</ContentPage>

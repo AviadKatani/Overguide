@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChooseCourse" xml:space="preserve">
+    <value>Choisissez le cours</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>Choisir la langue</value>
+  </data>
+  <data name="ChooseStation" xml:space="preserve">
+    <value>Choisir la station</value>
+  </data>
+  <data name="FirstCourse" xml:space="preserve">
+    <value>Cours 1</value>
+  </data>
+  <data name="FirstStation" xml:space="preserve">
+    <value>Station 1</value>
+  </data>
+  <data name="FourthStation" xml:space="preserve">
+    <value>Station 4</value>
+  </data>
+  <data name="SecondStation" xml:space="preserve">
+    <value>Station 2</value>
+  </data>
+  <data name="SeeMore" xml:space="preserve">
+    <value>Balayez pour voir plus ⇢</value>
+  </data>
+  <data name="StationTemporary" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consécutetur adipiscing elit, sed ne eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere morbi Leo Urna molestie à Elementum eu. Viverra Mauris in aliquam SEM Fringilla ut morbi tincidunt augue. Nam aliquam SEM et tortor conséquat. Eu augue ut lectus Arcu Bibendum à. Suspendisse interdum consectetur libero ID. Orci Phasellus egestas Tellus rutrum Tellus. Nunc congue nisi vitae suscipit Tellus Mauris a. neque egestas congue Quisque egestas diam in Arcu cursus. Quis Viverra NIBH Cras pulvinar Mattis nunc sed blandit. Malesuada Fames ac turpis egestas entier eget. Morbi Tristique senectus et netus. UT venenatis Tellus in metus vulputate eu. Gravida Arcu ac tortor dignissim convallis Aenean. Tempor Orci dapibus ultrices in iaculis nunc sed augue Lacus. Sed euismod nisi Porta Lorem mollis aliquam UT. AC placerat vestibule lectus Mauris ultrices. Conséquat interdum varius sit amet Mattis vulputate. Dis parturientes Montes nascetur ridiculus MUS. Viverra ipsum Nunc aliquet Bibendum enim facilisis gravida.</value>
+  </data>
+  <data name="ThirdStation" xml:space="preserve">
+    <value>Gare 3</value>
+  </data>
+  <data name="SecondCourse" xml:space="preserve">
+    <value>Cours n º 2</value>
+  </data>
+  <data name="ThirdCourse" xml:space="preserve">
+    <value>Cours 3</value>
+  </data>
+</root>

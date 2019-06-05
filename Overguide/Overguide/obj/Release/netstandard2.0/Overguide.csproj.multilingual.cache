@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Helpers\Resources\AppResources.resx</FileName>
+    <Checksum>138688752382441103869451511898329062</Checksum>
+    <ModifiedTime>2019-06-02T14:18:04.2476688</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Overguide.ru.xlf</FileName>
+    <Checksum>1771791202176441707617896160105145211146124</Checksum>
+    <ModifiedTime>2019-06-02T14:16:26.5228062+03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Helpers\Resources\AppResources.ru.resx</FileName>
+    <Checksum>152195635011219912462194731202023310206</Checksum>
+    <ModifiedTime>2019-06-02T14:17:58.0418222+03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Overguide.ar.xlf</FileName>
+    <Checksum>173189158188124481305215162170132209245239</Checksum>
+    <ModifiedTime>2019-06-02T14:16:26.5976055+03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Helpers\Resources\AppResources.ar.resx</FileName>
+    <Checksum>15886471387060702054517021319769146209190</Checksum>
+    <ModifiedTime>2019-06-02T14:17:58.0458111+03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Overguide.de.xlf</FileName>
+    <Checksum>9779248149102151855117049105741182118271</Checksum>
+    <ModifiedTime>2019-06-02T14:16:26.6025927+03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Helpers\Resources\AppResources.de.resx</FileName>
+    <Checksum>692101051806515743536439132332542238156</Checksum>
+    <ModifiedTime>2019-06-02T14:17:58.0507978+03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Overguide.es.xlf</FileName>
+    <Checksum>59501325211011076200187751892918255372</Checksum>
+    <ModifiedTime>2019-06-02T14:16:26.6085795+03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Helpers\Resources\AppResources.es.resx</FileName>
+    <Checksum>10116839110173126187231164961191163495170242</Checksum>
+    <ModifiedTime>2019-06-02T14:17:58.0537898+03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Overguide.fr.xlf</FileName>
+    <Checksum>1865121517219826707921151571921234268252</Checksum>
+    <ModifiedTime>2019-06-02T14:16:26.6155582+03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Helpers\Resources\AppResources.fr.resx</FileName>
+    <Checksum>903395782552081937557019517821256255192</Checksum>
+    <ModifiedTime>2019-06-02T14:17:58.0597739+03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Overguide.he.xlf</FileName>
+    <Checksum>13760552292261541051783022517625425019642199</Checksum>
+    <ModifiedTime>2019-06-02T14:16:26.6215422+03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Helpers\Resources\AppResources.he.resx</FileName>
+    <Checksum>162196431862071392231938317015753255191118124</Checksum>
+    <ModifiedTime>2019-06-02T14:17:58.0677526+03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Overguide.it.xlf</FileName>
+    <Checksum>23314424924189473013412318313817511821472110</Checksum>
+    <ModifiedTime>2019-06-02T14:16:26.6315151+03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Helpers\Resources\AppResources.it.resx</FileName>
+    <Checksum>23129234202189164152805111119216911915598184</Checksum>
+    <ModifiedTime>2019-06-02T14:17:58.0727399+03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Overguide.nl.xlf</FileName>
+    <Checksum>1096612324251512502434325229242287231163</Checksum>
+    <ModifiedTime>2019-06-02T14:16:26.6384966+03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Helpers\Resources\AppResources.nl.resx</FileName>
+    <Checksum>617921716876841272481082551551173371238252</Checksum>
+    <ModifiedTime>2019-06-02T14:17:58.0777286+03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>

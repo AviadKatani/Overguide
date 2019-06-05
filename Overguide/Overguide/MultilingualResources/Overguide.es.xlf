@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="es" original="OVERGUIDE/HELPERS/RESOURCES/APPRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6912.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="OVERGUIDE/HELPERS/RESOURCES/APPRESOURCES.RESX" datatype="resx">
+        <trans-unit id="ChooseCourse" translate="yes" xml:space="preserve">
+          <source>Choose course</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Elija el curso</target>
+        </trans-unit>
+        <trans-unit id="ChooseLanguage" translate="yes" xml:space="preserve">
+          <source>Choose language</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Elija el idioma</target>
+        </trans-unit>
+        <trans-unit id="ChooseStation" translate="yes" xml:space="preserve">
+          <source>Choose station</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Elija la estación</target>
+        </trans-unit>
+        <trans-unit id="FirstCourse" translate="yes" xml:space="preserve">
+          <source>Course 1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Curso 1</target>
+        </trans-unit>
+        <trans-unit id="FirstStation" translate="yes" xml:space="preserve">
+          <source>Station 1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Estación 1</target>
+        </trans-unit>
+        <trans-unit id="FourthStation" translate="yes" xml:space="preserve">
+          <source>Station 4</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Estación 4</target>
+        </trans-unit>
+        <trans-unit id="SecondStation" translate="yes" xml:space="preserve">
+          <source>Station 2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Estación 2</target>
+        </trans-unit>
+        <trans-unit id="SeeMore" translate="yes" xml:space="preserve">
+          <source>Swipe to see more ⇢</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Desliza para ver más ⇢</target>
+        </trans-unit>
+        <trans-unit id="StationTemporary" translate="yes" xml:space="preserve">
+          <source>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere morbi leo urna molestie at elementum eu. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Nam aliquam sem et tortor consequat. Eu augue ut lectus arcu bibendum at. Suspendisse interdum consectetur libero id. Orci phasellus egestas tellus rutrum tellus. Nunc congue nisi vitae suscipit tellus mauris a. Neque egestas congue quisque egestas diam in arcu cursus. Quis viverra nibh cras pulvinar mattis nunc sed blandit. Malesuada fames ac turpis egestas integer eget. Morbi tristique senectus et netus. Ut venenatis tellus in metus vulputate eu. Gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. Sed euismod nisi porta lorem mollis aliquam ut. Ac placerat vestibulum lectus mauris ultrices. Consequat interdum varius sit amet mattis vulputate. Dis parturient montes nascetur ridiculus mus. Viverra ipsum nunc aliquet bibendum enim facilisis gravida.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lorem ipsum dolor sit amet, consectetur adipiscing Elit, sed do eiusmod tempor incididunt UT labore Stay et Dolore Magna Aliqua. Posuere morbi Leo urna molestie en Elementum EU. Viverra Mauris in Aliquam SEM Fringilla UT morbi tincidunt AUGUE. Nam Aliquam SEM et tortor consequat. EU AUGUE UT LECTUS ARCU Bibendum at. Suspendisse Interdum consectetur libero ID. Orci phasellus egestas Tellus rutrum Tellus. Nunc Congue Nisi vitae suscipit Tellus Mauris a. Neque egestas Congue quisque egestas diam in ARCU cursus. Quis Viverra nibh CRAS pulvinar Mattis Nunc sed blandit. Malesuada frames AC Turpis egestas Integer eget. Morbi tristique senectus et Netus. UT venenatis Tellus in metus vulputate EU. Gravida ARCU AC tortor dignissim Convallis Aenean. Tempor Orci dapibus ultrices in iaculis Nunc sed AUGUE Lacus. Sed euismod Nisi porta Lorem mollis Aliquam UT. AC placerat Vestibulum LECTUS Mauris ultrices. Consequat Interdum Varius Sit amet Mattis vulputate. Dis parturient Montes nascetur ridiculus Mus. Viverra ipsum Nunc aliquet Bibendum enim facilisis Gravida.</target>
+        </trans-unit>
+        <trans-unit id="ThirdStation" translate="yes" xml:space="preserve">
+          <source>Station 3</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Estación 3</target>
+        </trans-unit>
+        <trans-unit id="SecondCourse" translate="yes" xml:space="preserve">
+          <source>Course 2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Curso 2</target>
+        </trans-unit>
+        <trans-unit id="ThirdCourse" translate="yes" xml:space="preserve">
+          <source>Course 3</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Curso 3</target>
+        </trans-unit>
+        <trans-unit id="AppName" translate="yes" xml:space="preserve">
+          <source>Overguide</source>
+          <target state="new">Overguide</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

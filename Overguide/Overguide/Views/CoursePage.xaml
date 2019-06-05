@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage
+    x:Class="Overguide.Views.CoursePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:helper="clr-namespace:Overguide.Helpers; assembly=Overguide"
+    Title="OverGuide">
+    <NavigationPage.TitleView>
+        <StackLayout Padding="0, 0, 55, 0" VerticalOptions="Center">
+            <Label Text="OverGuide" FontSize="Large" HorizontalOptions="Center"
+                   TextColor="White" FontFamily="{StaticResource RobotoMedium}" />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <StackLayout Padding="40,20,40,0" HorizontalOptions="Center" Spacing="50">
+        <Label
+            FontFamily="{StaticResource RobotoThin}"
+            FontSize="Large"
+            HorizontalOptions="Center"
+            Text="{helper:Translate ChooseCourse}"
+            TextColor="Black"
+            VerticalOptions="Start" />
+        <Grid VerticalOptions="CenterAndExpand" RowSpacing="20">
+            <Frame HasShadow="True" Padding="4" CornerRadius="10" Margin="4" HeightRequest="70" Grid.Row="0">
+                <buttons:SfButton
+                    BackgroundColor="White"
+                    ClassId="First"
+                    CornerRadius="10"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                    Clicked="Course_Choosed"
+                    FontFamily="{StaticResource RobotoLight}"
+                    FontSize="25"
+                    Text="{helper:Translate FirstCourse}"
+                    TextColor="Black" />
+            </Frame>
+            <Frame HasShadow="True" Padding="4" CornerRadius="10" Margin="4" HeightRequest="70" Grid.Row="1">
+                <buttons:SfButton
+                    BackgroundColor="White"
+                    ClassId="Second"
+                    CornerRadius="10"
+                    Clicked="Course_Choosed"
+                    FontFamily="{StaticResource RobotoLight}"
+                    FontSize="25"
+                    Text="{helper:Translate SecondCourse}"
+                    TextColor="Black" />
+            </Frame>
+            <Frame HasShadow="True" Padding="4" CornerRadius="10" Margin="4" HeightRequest="70" Grid.Row="2">
+                <buttons:SfButton
+                    BackgroundColor="White"
+                    ClassId="Third"
+                    CornerRadius="10"
+                    Clicked="Course_Choosed"
+                    FontFamily="{StaticResource RobotoLight}"
+                    FontSize="25"
+                    Text="{helper:Translate ThirdCourse}"
+                    TextColor="Black" />
+            </Frame>
+        </Grid>
+    </StackLayout>
+</ContentPage>

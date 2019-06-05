@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en</MultilingualFallbackLanguage>
+    <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
+    <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
+  <ItemGroup>
+    <None Remove="Images\arabflag.png" />
+    <None Remove="Images\flagermany.png" />
+    <None Remove="Images\flagnetherland.png" />
+    <None Remove="Images\franceflag.png" />
+    <None Remove="Images\ilflag.png" />
+    <None Remove="Images\italyflag.png" />
+    <None Remove="Images\russianflag.jpg" />
+    <None Remove="Images\spainflag.png" />
+    <None Remove="Images\usflag.png" />
+    <None Remove="MultilingualResources\Overguide.ar.xlf" />
+    <None Remove="MultilingualResources\Overguide.de.xlf" />
+    <None Remove="MultilingualResources\Overguide.es.xlf" />
+    <None Remove="MultilingualResources\Overguide.fr.xlf" />
+    <None Remove="MultilingualResources\Overguide.he.xlf" />
+    <None Remove="MultilingualResources\Overguide.it.xlf" />
+    <None Remove="MultilingualResources\Overguide.nl.xlf" />
+    <None Remove="MultilingualResources\Overguide.ru.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\Overguide.ru.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\arabflag.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\flagermany.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\flagnetherland.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\franceflag.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\ilflag.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\italyflag.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\russianflag.jpg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\spainflag.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\usflag.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LiveXAML" Version="2.1.72" />
+    <PackageReference Include="Plugin.MediaManager" Version="0.6.2" />
+    <PackageReference Include="Plugin.MediaManager.Forms" Version="0.6.2" />
+    <PackageReference Include="Plugin.Multilingual" Version="1.0.2" />
+    <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="17.1.0.49" />
+    <PackageReference Include="Syncfusion.Xamarin.SfCarousel" Version="17.1.0.49" />
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="17.1.0.49" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Helpers\Resources\AppResources.resx">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\CoursePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\LanguagePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PlayerPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\StationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\Overguide.ar.xlf" />
+    <XliffResource Include="MultilingualResources\Overguide.de.xlf" />
+    <XliffResource Include="MultilingualResources\Overguide.es.xlf" />
+    <XliffResource Include="MultilingualResources\Overguide.fr.xlf" />
+    <XliffResource Include="MultilingualResources\Overguide.he.xlf" />
+    <XliffResource Include="MultilingualResources\Overguide.it.xlf" />
+    <XliffResource Include="MultilingualResources\Overguide.nl.xlf" />
+  </ItemGroup>
+</Project>

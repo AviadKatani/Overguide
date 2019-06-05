@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Aviad\source\repos\Overguide\Overguide\Overguide\App.xaml</FilePath>
+      <Hash>EE-48-83-6F-F9-48-16-FE-0E-C9-05-8D-72-7D-C9-47</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Aviad\source\repos\Overguide\Overguide\Overguide\Views\CoursePage.xaml</FilePath>
+      <Hash>0D-C5-1B-86-46-32-CF-5D-B8-D6-B6-67-4A-CD-9D-8B</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Aviad\source\repos\Overguide\Overguide\Overguide\Views\LanguagePage.xaml</FilePath>
+      <Hash>28-72-04-AF-B7-14-91-00-40-F9-2A-58-33-BB-2D-C5</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Aviad\source\repos\Overguide\Overguide\Overguide\Views\PlayerPage.xaml</FilePath>
+      <Hash>51-5E-9B-B7-09-D7-91-8A-DD-BD-85-56-C5-5E-0C-C3</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Aviad\source\repos\Overguide\Overguide\Overguide\Views\StationPage.xaml</FilePath>
+      <Hash>76-CD-3E-31-54-31-D4-D5-6C-0C-A7-DB-BA-B6-D7-B7</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>
